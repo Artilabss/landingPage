@@ -206,16 +206,6 @@ nav a:hover {
 
 .info-item {
   position: relative;
-  padding-left: 50px;
-}
-
-.info-number {
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-family: 'Playfair Display', serif;
-  font-size: 1.2rem;
-  color: var(--dourado);
 }
 
 .info-item h3 {
@@ -305,3 +295,21 @@ footer {
   }
 }
 
+
+.btn-secondary {
+  margin-top: 30px;
+  background-color: transparent;
+  border: 1px solid var(--dourado);
+  padding: 12px 28px;
+  border-radius: 40px;
+  color: var(--violeta-profundo);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.9rem;
+  transition: 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: var(--dourado);
+  color: var(--branco);
+}
