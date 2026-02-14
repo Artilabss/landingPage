@@ -204,16 +204,6 @@ h1, h2, h3 {
 
 .info-item {
   position: relative;
-  padding-left: 50px;
-}
-
-.info-number {
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-family: 'Playfair Display', serif;
-  font-size: 1.2rem;
-  color: var(--dourado);
 }
 
 .info-item h3 {
@@ -318,3 +308,4 @@ footer {
     gap: 30px;
   }
 }
+
